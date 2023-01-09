@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import {UserGreet, UserGreet2, UserGreet3, UserGreet4} from './PRACTICEFOLDER_1/conditional_rendering';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UserGreet/> */}
+      {/* <UserGreet2/> */}
+      {/* <UserGreet3/> */}
+      <UserGreet4/>
+
+      {/* remove the comment to execute the components in the local host */}
+
     </div>
   );
 }
